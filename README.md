@@ -15,3 +15,7 @@ A planned security operations product integrating endpoint and network telemetry
 See [architecture](docs/ARCHITECTURE.md), [release requirements](docs/RELEASE_REQUIREMENTS.md) and [upstream references](docs/REFERENCES.md).
 
 This design does not claim a mature EDR product, universal attack detection or deployed protection. Real validation and operational support are part of the full release scope.
+
+## Maintenance
+
+[Verification](docs/TESTING.md) · [Contributing](CONTRIBUTING.md) · [Security reporting](SECURITY.md)
