@@ -1,0 +1,14 @@
+.env
+.env.*
+!.env.example
+__pycache__/
+.venv/
+*.log
+captures/
+evidence/
+customer-data/
+secrets/
+*.pcap
+*.pcapng
+*.dmp
+*.key
