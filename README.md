@@ -2,7 +2,23 @@
 
 **Chitalu Software Solutions**
 
-A planned security operations product integrating endpoint and network telemetry, incident investigation and controlled response. The initial repository contains architecture and release requirements; no sensors, detections or response actions have been deployed.
+A security operations project for turning endpoint and network events into
+reviewable cases. The first working feature replays fictional sign-in events
+and links each case to the failures that triggered it.
+
+## Run the sign-in detection demo
+
+From the repository root, with Python 3.10 or later:
+
+```bash
+python3 -m secops.replay fixtures/sign_in_demo.jsonl
+```
+
+The sample produces one case for `demo-student` on `demo-workstation-01`,
+with the three source event IDs. It also reports one duplicate and one malformed
+record. The demo uses the Python standard library and reads a local file.
+See the [exercise](docs/FIRST_DETECTION.md) for the event format, rule and sample
+result.
 
 ## Direction
 
@@ -12,9 +28,9 @@ A planned security operations product integrating endpoint and network telemetry
 - Audited, permission-controlled response actions with a recovery path.
 - A separate isolated malware and reverse-engineering lab for deeper investigation.
 
-See the [architecture](docs/ARCHITECTURE.md), [release requirements](docs/RELEASE_REQUIREMENTS.md) and [upstream references](docs/REFERENCES.md). The [first detection exercise](docs/FIRST_DETECTION.md) defines a small sign-in failure replay with expected results.
-
-This design does not claim a mature EDR product, universal attack detection or deployed protection. Real validation and operational support are part of the full release scope.
+See the [architecture](docs/ARCHITECTURE.md), [release requirements](docs/RELEASE_REQUIREMENTS.md) and [upstream references](docs/REFERENCES.md).
+The replay is a batch exercise for synthetic data. Live collection, an incident
+workspace and automated response are still planned.
 
 ## Maintenance
 

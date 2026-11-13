@@ -1,0 +1,7 @@
+{"event_id":"demo-03","timestamp":"2026-11-13T10:04:00Z","asset_id":"demo-workstation-01","account_id":"demo-student","event_type":"sign_in_failure"}
+{"event_id":"demo-01","timestamp":"2026-11-13T10:00:00Z","asset_id":"demo-workstation-01","account_id":"demo-student","event_type":"sign_in_failure"}
+{"event_id":"demo-02","timestamp":"2026-11-13T12:01:00+02:00","asset_id":"demo-workstation-01","account_id":"demo-student","event_type":"sign_in_failure"}
+{"event_id":"demo-02","timestamp":"2026-11-13T10:01:00Z","asset_id":"demo-workstation-01","account_id":"demo-student","event_type":"sign_in_failure"}
+{"event_id":"demo-04","timestamp":"2026-11-13T10:03:00Z","asset_id":"demo-workstation-01","account_id":"demo-operator","event_type":"sign_in_failure"}
+{"event_id":"demo-05","timestamp":"2026-11-13T10:04:30Z","asset_id":"demo-workstation-01","account_id":"demo-student","event_type":"sign_in_success"}
+{"timestamp":"2026-11-13T10:04:45Z","asset_id":"demo-workstation-01","account_id":"demo-student","event_type":"sign_in_failure"}
