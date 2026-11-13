@@ -12,7 +12,7 @@ A planned security operations product integrating endpoint and network telemetry
 - Audited, permission-controlled response actions with a recovery path.
 - A separate isolated malware and reverse-engineering lab for deeper investigation.
 
-See [architecture](docs/ARCHITECTURE.md), [release requirements](docs/RELEASE_REQUIREMENTS.md) and [upstream references](docs/REFERENCES.md).
+See the [architecture](docs/ARCHITECTURE.md), [release requirements](docs/RELEASE_REQUIREMENTS.md) and [upstream references](docs/REFERENCES.md). The [first detection exercise](docs/FIRST_DETECTION.md) defines a small sign-in failure replay with expected results.
 
 This design does not claim a mature EDR product, universal attack detection or deployed protection. Real validation and operational support are part of the full release scope.
 
