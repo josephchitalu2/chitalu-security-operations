@@ -20,6 +20,13 @@ record. The demo uses the Python standard library and reads a local file.
 See the [exercise](docs/FIRST_DETECTION.md) for the event format, rule and sample
 result.
 
+## Use the detector from Codex
+
+The optional local MCP server exposes the bundled replay and a tool for
+small synthetic JSON Lines inputs. See the [MCP setup](docs/MCP.md) to
+register it with Codex and run a tool call. The CLI above remains usable
+with no additional packages.
+
 ## Direction
 
 - Wazuh-based endpoint/log visibility and integration where appropriate.
