@@ -17,5 +17,6 @@ jobs:
           python-version: '3.12'
       - run: python3 scripts/check_docs.py
       - run: python3 -m unittest discover -s tests -p test_replay.py -v
-      - run: python3 -m pip install --only-binary=:all: -r requirements-mcp.txt
+      - run: |
+          python3 -m pip install --only-binary=:all: -r requirements-mcp.txt
       - run: python3 -m unittest discover -s tests -p test_mcp_server.py -v
