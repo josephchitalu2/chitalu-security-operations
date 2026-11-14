@@ -8,9 +8,11 @@ and links each case to the failures that triggered it.
 
 ## Run the sign-in detection demo
 
-From the repository root, with Python 3.10 or later:
+Run the demo with Python 3.10 or later:
 
 ```bash
+git clone https://github.com/josephchitalu2/chitalu-security-operations.git
+cd chitalu-security-operations
 python3 -m secops.replay fixtures/sign_in_demo.jsonl
 ```
 
@@ -19,6 +21,8 @@ with the three source event IDs. It also reports one duplicate and one malformed
 record. The demo uses the Python standard library and reads a local file.
 See the [exercise](docs/FIRST_DETECTION.md) for the event format, rule and sample
 result.
+
+Run `python3 -m unittest discover -s tests -p test_replay.py -v` to verify the replay.
 
 ## Use the detector from Codex
 
